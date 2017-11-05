@@ -1,0 +1,115 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.homepage-bg {
+    background-image: url('Images/WardrobeBG.jpg');
+    background-size: cover;
+}
+
+.index-bg {
+    background-image: url('Images/brickBG.jpg');
+}
+
+.details-bg {
+    background-color: linen;
+    background-size: cover;
+}
+
+.homepage-div{
+    background-color: burlywood;
+    padding-top: 30px;
+    border-left: 7px solid;
+    border-bottom: 7px solid;
+    border-right: 7px solid;
+}
+
+
+.homepage-header{
+    font-family: Rozha One;
+    font-size: 60px;
+    background-color: papayawhip;
+    text-align: center;
+}
+
+.homepage-img:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+h2{
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
+.footer{
+    padding-top: 50px;
+}
+
+h1 {
+    
+font-family: 'Parisienne', cursive;
+    text-align: center;
+    color:black;
+    font-size: 60px;
+}
+
+.btn-default a{
+    color: white;
+    font-family: calibri;
+    font-size: 16px;
+}
+
+.btn-default {
+    opacity: .9;
+    background-color: gray;
+}
+
+.btn-index{
+    background-color: none;
+    opacity: .9;
+}
+
+.btn-index a{
+    color: slategray;
+    font-weight: bold;
+    background-color: white;
+    padding: 3px;
+}
+
+.details-div{
+    color:black;
+    font-weight: bold;
+   width: auto;
+    font-family: 'calibri';
+    text-align: center;
+}
+
+
+#details-img{
+    border: 2px solid black;
+    left: 50px;
+}
