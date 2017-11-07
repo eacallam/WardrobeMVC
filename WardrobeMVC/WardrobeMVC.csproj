@@ -212,7 +212,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>WardrobeMVC.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\WardrobeMVCContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

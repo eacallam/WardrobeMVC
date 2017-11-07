@@ -12,7 +12,7 @@ namespace WardrobeMVC.Controllers
 {
     public class OccasionsController : Controller
     {
-        private WardrobeMVCContext db = new WardrobeMVCContext();
+        private WardrobeMVCEntities db = new WardrobeMVCEntities();
 
         // GET: Occasions
         public ActionResult Index()
